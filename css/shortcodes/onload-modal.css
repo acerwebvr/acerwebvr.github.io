@@ -1,0 +1,42 @@
+
+
+.mfp-container { cursor: url("../../images/close.png") 25 25, pointer; }
+
+/*modal-simple-content*/
+.modal-simple-content { background: #ffffff; padding: 50px 30px; border-radius: 3px; margin: 0 auto; max-width: 600px; }
+
+/*modal-shop*/
+.modal-shop { background: #323232; padding: 50px 60px; border-radius: 3px; margin: 0 auto; max-width: 650px; }
+.modal-shop h2 { font-size: 60px; line-height: 60px; color: #ffffff; font-weight: 500; margin-top: 15px; }
+.modal-shop span { display: block; }
+.modal-shop p { color: rgba(255,255,255,0.5); }
+
+/*modal-subscribe*/
+.modal-subscribe { background: #ffffff;  margin: 0 auto; max-width: 500px; }
+.modal-subscribe .subscribe-icon { height: 300px; background: #84ba3f; display: block; overflow: hidden; }
+.modal-subscribe .subscribe-icon i { color: rgba(0, 0, 0, 0.2); font-size: 270px; transform: rotate(-30deg); -o-transform: rotate(-30deg); -ms-transform: rotate(-30deg); -moz-transform: rotate(-30deg); }
+.modal-subscribe .subscribe-content { padding: 30px; }
+.modal-subscribe .subscribe-content p { color: #323232; }
+  
+/*modal-login*/
+.modal-login { background: #ffffff; border-radius: 3px; margin: 0 auto; max-width: 600px; }
+.modal-login .login-bg .login-title { border-radius: 0; }
+
+/*modal-register*/
+.modal-register { background: #ffffff;  border-radius: 3px; margin: 0 auto; max-width: 600px; }
+.modal-register .register-title { padding: 40px 30px; text-align: center; }
+.modal-register .register-title img { height: 40px; }
+.modal-register .register-form { padding: 50px; }
+
+/*modal-video*/
+.modal-video { background: #ffffff; padding: 50px 30px; border-radius: 3px; margin: 0 auto; max-width: 600px; } 
+.image-source-link { color: #98C3D1;  }
+
+/*mfp-with-zoom*/
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {	opacity: 0;	-webkit-backface-visibility: hidden;/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 	-moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.mfp-with-zoom.mfp-ready .mfp-container { opacity: 1; }
+.mfp-with-zoom.mfp-ready.mfp-bg { opacity: 0.8; }
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg { opacity: 0; }

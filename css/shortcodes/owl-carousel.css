@@ -1,0 +1,25 @@
+
+
+/***************************
+        Owl Carousel
+***************************/
+.owl-carousel .owl-item img { width: auto; }
+.owl-carousel .owl-nav { display: block; position: absolute; text-indent: inherit; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); left: 0; width: 100%; cursor: pointer; z-index: 999;}
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next{display: block; position: absolute; text-indent: inherit; width: auto; cursor: pointer; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out;}
+.owl-carousel .owl-nav .owl-prev{left:0;}
+.owl-carousel .owl-nav .owl-next{right:0;}
+.owl-carousel .owl-nav i{ font-size: 20px; width:36px; height:36px; line-height:36px; display: inline-block; color:#ffffff; border-radius: 50%; background:#84ba3f; border:0px solid #3d3d3d; font-weight:normal; text-align: center; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out;}
+.owl-carousel .owl-nav i:hover{background:#333; color:#ffffff;}
+.bottom-nav .owl-nav { bottom: 0; top: inherit; }
+.bottom-nav .owl-nav .owl-next { right: 46%; }
+.bottom-nav .owl-nav .owl-prev { left: 46%;  }
+
+/* Dots */ 
+.owl-carousel .owl-controls .owl-dot { margin: 0; display: inline-block; }
+.owl-carousel .owl-dots { display: inline-block;  /*position: absolute; bottom: -35px; */text-indent: inherit; width: 100%; cursor: pointer; text-align: center; }
+.owl-carousel .owl-dots .owl-dot span { background: #ddd; display: inline-block; width: 10px; height: 10px; border-radius: 50%; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; cursor: pointer; }
+.owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span { background:#84ba3f; }
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev { display: inline-block; margin: 14px 2px 0; }
+.bottom-left-dots .owl-dots { bottom: 30px !important; position: absolute;  }
+.bottom-left-dots .owl-dots .owl-dot span  { background: #ffffff; }

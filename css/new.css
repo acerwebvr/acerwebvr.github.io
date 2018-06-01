@@ -1,0 +1,113 @@
+.page-section-ptb {
+    padding: 40px 0;
+}
+
+.no-title .portfolio-item .portfolio-overlay{
+    background: rgba(0,0,0,0.5);
+    height: 55px;
+    position: absolute;
+    bottom: 0;
+}
+
+.isotope.columns-4 .portfolio-item .portfolio-overlay h4 {
+    line-height: 36px;
+    color: #fff;
+}
+
+.no-title .portfolio-item .portfolio-overlay h4 a,
+.no-title .portfolio-item .portfolio-overlay span,
+.no-title .portfolio-item .portfolio-overlay p{
+    color: #fff;
+}
+.page-title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.ft-center {
+    text-align: center;
+}
+
+.mega-menu .menu-logo img,
+.mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img {
+    margin-top: 20px;
+    height: 20px;
+}
+
+
+.mega-menu .menu-logo > li {
+    line-height: 60px;
+}
+
+.mega-menu .menu-links > li > a{
+    padding: 0;
+    line-height: 50px;
+}
+
+.menu-logo span{
+/*    line-height: 40px; */
+    color: #FFF;
+    height: 30px;
+    font-size: 14px;
+}
+
+.mega-menu .menu-logo{
+    padding: 0;
+}
+
+.advertise {
+    margin: 50px 15px 0 15px;
+}
+
+.portfolio-item .portfolio-overlay{
+    bottom: -160px;
+}
+
+.isotope-filters button {
+    margin: 0;
+    cursor: pointer;
+    padding: 0 25px;
+    font-size: 16px;
+    border-radius: 19px;
+    background: none;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    line-height: 50px;
+}
+
+.isotope-filters button.active, .isotope-filters button:hover{
+    background: none;
+    color: #84ba3f;
+}
+
+.menu-bar .isotope-filters button img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+@media (min-width: 993px) {
+    .menu-bar .isotope-filters button img{
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .search-cart {
+        line-height: 60px;
+    }
+    
+    .isotope-filters button{
+        color: #000;
+    }
+    .mega-menu .menu-logo > li {
+        width: auto;
+    }
+}

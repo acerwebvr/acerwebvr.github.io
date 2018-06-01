@@ -1,0 +1,47 @@
+
+/*************************************
+        action-box 
+**************************************/
+.action-box { position: relative; }
+.action-box a.button { position: absolute; right: 0; top: 50%; margin-top: -20px; }
+
+/*border*/
+.action-box.border { padding: 30px; border:1px solid #eeeeee; } 
+.action-box.border a.button { right: 30px; }
+
+/*border center*/
+.action-box.center { text-align: center; } 
+.action-box.center a.button { position: relative; top: inherit; right: inherit; margin-top: 15px; }
+
+/*theme-bg*/
+.action-box.theme-bg { padding: 30px; }
+.action-box.theme-bg a.button { right: 30px; }
+.action-box.theme-bg h3, .action-box.theme-bg p { color: #ffffff; } 
+
+/*theme-bg*/
+.action-box.black-bg { padding: 30px; }
+.action-box.black-bg a.button { right: 30px; }
+.action-box.black-bg h3, .action-box.black-bg p { color: #ffffff; } 
+
+/*gray-bg*/
+.action-box.gray-bg { padding: 30px; }
+.action-box.gray-bg a.button { right: 30px; }
+
+/*white-bg*/
+.action-box.white-bg { padding: 30px; }
+.action-box.white-bg a.button { right: 30px; }
+
+/*gray-bg*/
+.action-box.parallax { padding: 100px 30px; }
+.action-box.parallax h3, .action-box.parallax p { color: #ffffff; } 
+
+/*full-width*/
+.action-box.full-width a.button { right: 15px; }
+
+/*gray-bg*/
+.action-box.pattern { padding: 100px 30px; }
+
+/*small*/
+.action-box.small { padding: 40px 35px;  }
+.action-box.small h3, .action-box.small p { position: relative; }
+.action-box.small a.button { position: relative; top: inherit; right: inherit; margin-top: 15px; }

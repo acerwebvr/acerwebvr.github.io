@@ -1,0 +1,46 @@
+
+/*************************
+        team
+*************************/
+.team { text-align: center; overflow: hidden; }
+.team .team-description { padding: 30px 20px; }
+.team .team-info h5 { text-transform: uppercase; }
+.team .team-info span { font-size: 14px; text-transform: uppercase;}
+.team .social-icons { text-align: center; display: inline-block; margin-top: 20px; } 
+.team .team-contact span { display: block; font-size: 14px; }
+.team .team-contact span.call { font-size: 20px; line-height: 28px; font-weight: 600; margin: 10px 0; color: #84ba3f; }
+.team .team-contact span i { padding-right: 5px; }
+
+/*team-hover*/
+.team.team-hover .social-icons { position: absolute; top: 0; left: 10px; opacity: 0; transition: 0.5s ease-in-out; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; }
+.team.team-hover .social-icons ul { display: block; }
+.team.team-hover .social-icons li { display: block; float: none; clear: both; }
+.team.team-hover .social-icons li a { margin: 3px 0; border-radius: 50%; }
+.team.team-hover:hover .social-icons { opacity: 1; left: 40px; }
+
+/*team border*/
+.team-border .team-description { border:1px solid #eeeeee; }
+
+/*team bg*/
+.team-bg .team-description {  background: #f6f7f8; }
+
+/*team shadow*/
+.team-shadow { box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); }
+
+/*team round*/
+.team-round .team-photo img { border-radius: 50%; }
+
+/*team full border*/
+.team-round.full-border { padding: 30px; border:1px solid #eeeeee; }
+.team-round.full-border .team-contact span.call { font-size: 16px; line-height: 22px; font-weight: normal; color: #363636; }
+.team-round.full-border .team-contact span.email { font-size: 17px; color: #84ba3f; }
+.team-round.full-border .team-description { padding-bottom: 0; }
+.team.team-list { clear: both; }
+.team.team-list h5 { font-size: 26px; }
+.team.team-list .team-info span { font-size: 18px; }
+.team.team-list .team-photo { float: left; width: 40%; } 
+.team.team-list .team-description { position: relative; overflow: hidden; text-align: left; } 
+.team.team-list .team-description { padding-top: 0; }
+.team.team-list.team-hover .social-icons { opacity: 1; left: inherit; top: inherit; margin-top:15px; }
+.team.team-list.team-hover .social-icons li { float: left;  }
+.team.team-list.team-hover .team-description { padding: 30px 20px 50px; }

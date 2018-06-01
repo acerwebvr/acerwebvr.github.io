@@ -1,0 +1,45 @@
+
+/*************************
+    Section title 1
+***********************/
+.section-title { margin-bottom: 40px; position: relative; }
+.section-title .title { margin-top: 0px; position: relative; } 
+.section-title .subtitle { font-size: 12px; letter-spacing: 1px; font-weight: 700; margin-bottom: 10px; text-transform: uppercase;} 
+.section-title p { margin-bottom: 0px; font-size: 20px; font-weight: 400; }
+
+/*line*/
+.section-title.line .title { padding-bottom: 20px; }
+.section-title.line .title:before { position: absolute; left: 0; bottom: 0; width: 80px; height: 3px; background: #84ba3f; content: "";  }
+
+ /*title center */
+.section-title.center .title:before { left: 50%; margin-left: -35px; }
+.section-title.right .title:before { right: 0; left: inherit; margin-left: inherit; }
+
+/*bg */
+.section-title span.theme-bg { background: #84ba3f; color: #ffffff; padding: 0 15px; } 
+
+/*dark-bg*/
+.section-title.dark-bg .title { color: #ffffff; } 
+.section-title.dark-bg .subtitle { color: #ffffff; } 
+.section-title.dark-bg p { color: #ffffff; }  
+.section-title.dark-bg.line .title:before { background: #ffffff; }
+.section-title.dark-bg span.theme-bg { background: #ffffff; color: #84ba3f; }
+ 
+.title-effect  { z-index: 99; position: relative; display: inline-block; transition: transform 0.5s, color 0.5s; transition-timing-function: cubic-bezier(0.2,1,0.3,1); }
+.title-effect::before { content: ''; position: absolute; z-index: -1; width: 100%; height: 50%; left: 0; bottom: 0;	opacity: 0.2; transform: scale3d(0,1,1);
+	transform-origin: 0% 50%; transition: transform 0.5s; transition-timing-function: cubic-bezier(0.2,1,0.3,1); }
+.section-title:nth-child(odd) .title-effect::before { background: #84ba3f; }
+
+section:hover .title-effect::before, section:focus .title-effect::before {transform: scale3d(1,1,1); }
+section:hover .title-effect:nth-child(even), section:focus .title-effect:nth-child(even) { color: #84ba3f; }
+
+ /*dark*/
+section:nth-child(odd) .title-effect.dark::before { background: #ffffff; }
+section:hover .title-effect.dark:nth-child(even), section:focus .title-effect.dark:nth-child(even) { color: #ffffff; }
+
+/*.title-effect:hover:before, .title-effect:focus::before {transform: scale3d(1,1,1); }
+.title-effect:hover:nth-child(even), .title-effect:focus:nth-child(even) { color: #84ba3f; }*/
+
+ /*dark*/
+/*.title-effect.dark:nth-child(odd):before { background: #ffffff; }
+.title-effect.dark:hover:nth-child(even), section .title-effect.dark:focus:nth-child(even) { color: #ffffff; }

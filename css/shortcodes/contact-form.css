@@ -1,0 +1,54 @@
+
+/*************************
+        Contact form
+*************************/
+/*form-control*/
+.form-control { border-radius: 30px; height: auto; line-height: 1.33333; padding: 15px 18px 15px 30px; background: #f6f7f8; color: #323232; border: 0px solid transparent; box-shadow: none; }
+.form-control:focus { background: #ffffff; border:0px; box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); -webkit-transition: all 0.5s ease-out 0s;  -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s;
+    border-color: transparent; }
+.form-control.input-lg { resize: none; font-size: .9em }
+.form-control.rounded { border-radius: 0px; }
+.input-group-addon { border: 1px solid #e0e0e0; }
+.form-group label { color: #353535; display: inline-block; margin-top: 8px; margin-bottom: 4px; text-transform: uppercase; font-size: 13px; }
+.form-inline button { margin: 0px; }
+.form-group > label { display: block; }
+.form-control::-moz-placeholder { color: #323232; }
+.form-control::-ms-input-placeholder { color: #323232; }
+.form-control::-webkit-input-placeholder { color: #323232; }
+.table-bordeblue>tbody>tr>td, .table-bordeblue>tbody>tr>th, .table-bordeblue>tfoot>tr>td, .table-bordeblue>tfoot>tr>th, .table-bordeblue>thead>tr>td, .table-bordeblue>thead>tr>th { border-color: #e0e0e0; padding: 12px 20px; }
+textarea.form-control { resize: vertical; }
+.contact-form.border-form .form-control { background: transparent; color: #aaaaaa; border:2px solid #eeeeee; }
+.contact-form.border-form .form-control { box-shadow: none; color: #aaaaaa; } 
+.contact-form.border-form .form-control::-moz-placeholder { color: #aaaaaa; }
+.contact-form.border-form .form-control::-ms-input-placeholder { color: #aaaaaa; }
+.contact-form.border-form .form-control::-webkit-input-placeholder { color: #aaaaaa; }
+.contact-form.border-form .form-control:focus { background: #f6f7f8; }
+.contact-form.border-form .nice-select { background: transparent; color: #aaaaaa; border:2px solid #eeeeee; }
+.contact-form.border-form .nice-select .option { color: #323232; }
+.contact-form.border-form .nice-select:after { border-color: #aaaaaa; }
+.contact-form.dark-form .form-control { background: rgba(43, 43, 43, 0.12); color: #ffffff; }
+.contact-form.dark-form .form-control { box-shadow: none; color: #ffffff; } 
+.contact-form.dark-form .form-control::-moz-placeholder { color: #ffffff; }
+.contact-form.dark-form .form-control::-ms-input-placeholder { color: #ffffff; }
+.contact-form.dark-form .form-control::-webkit-input-placeholder { color: #ffffff; }
+.contact-form.dark-form .form-control:focus { background: rgba(43, 43, 43, 0.19); }
+.contact-form.dark-form .nice-select { background: rgba(43, 43, 43, 0.12); ; color: #ffffff; border:0; }
+.contact-form.dark-form .nice-select .option { color: #323232; }
+.contact-form.dark-form .nice-select:after { border-color: #ffffff; }
+.contact-form.transparent-form .form-control { background: rgba(255, 255, 255, 0.12); color: #ffffff; }
+.contact-form.transparent-form .form-control { box-shadow: none; color: #ffffff; } 
+.contact-form.transparent-form .form-control::-moz-placeholder { color: #ffffff; }
+.contact-form.transparent-form .form-control::-ms-input-placeholder { color: #ffffff; }
+.contact-form.transparent-form .form-control::-webkit-input-placeholder { color: #ffffff; }
+.contact-form.transparent-form .form-control:focus { background: rgba(255, 255, 255, 0.19); }
+.contact-form.transparent-form .nice-select { background: rgba(255, 255, 255, 0.12); color: #ffffff; border:0; }
+.contact-form.transparent-form .nice-select .option { color: #323232; }
+.contact-form.transparent-form .nice-select:after { border-color: #ffffff; }
+.contact-form.full-width .section-field { width: 100%; }
+.newsletter.francy { position: relative; }
+.newsletter.francy .form-control { padding-right: 200px; }
+.newsletter.francy button {  position: absolute; top: 0; right: 0; padding: 13px 20px; }
+.newsletter-box { padding: 30px; background: #ffffff; border-radius: 3px; }
+.newsletter-box.gray-bg .form-control { background: #ffffff; }
+.newsletter-box.border { padding: 30px; border:2px solid #eeeeee; border-radius: 3px; }

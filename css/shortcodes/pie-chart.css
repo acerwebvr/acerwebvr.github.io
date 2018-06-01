@@ -1,0 +1,7 @@
+
+/***************************
+      pie-chart
+***************************/
+.round-chart { display: inline-block; position: relative; text-align: center; margin-bottom: 20px; }
+.round-chart span, .round-chart i { display: inline-block; font-size: 28px; z-index: 2; font-weight: 600; position: absolute; }
+.round-chart.white span, .round-chart.white i { color: #ffffff; }

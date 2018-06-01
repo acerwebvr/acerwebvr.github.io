@@ -1,0 +1,24 @@
+
+/*************************
+    blockquote
+*************************/
+blockquote { position: relative; }
+blockquote cite { display: block; font-weight: 600; margin-top: 10px; }
+
+/*blockquote-right*/
+.blockquote-right { text-align: right; border-right: 5px solid #eee; border-left: 0; margin: 0 20px 0; }
+
+/*quote*/
+.quote { padding-top: 50px; }
+.quote:before { content: "\201C"; font-family: Georgia, serif; font-size: 100px; font-weight: bold; color: #eee; position: absolute; left: 14px;top: -20px; }
+
+/*quote right*/
+.blockquote-right.quote:before { left: inherit; right: 14px; }
+
+/*theme-bg*/
+blockquote.theme-bg { border: 0px; color: #ffffff; padding: 70px 30px 30px; border-radius: 6px; }
+blockquote.theme-bg:before { left: 24px; top: -10px; }
+
+/*theme-bg*/
+blockquote.black-bg { border: 0px; color: #ffffff; padding: 70px 30px 30px; border-radius: 6px; }
+blockquote.black-bg:before { left: 24px; top: -10px; left: inherit; }

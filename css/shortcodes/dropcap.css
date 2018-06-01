@@ -1,0 +1,9 @@
+
+/*************************************
+           Dropcap & Highlight
+ **************************************/
+ .dropcap { width: 40px; height: 40px; line-height: 40px; float: left; border-radius: 50%; background: #84ba3f; text-align: center; color: #ffffff; margin-right: 10px; }
+ .dropcap.border { background: transparent; border:2px solid #84ba3f; color: #84ba3f; }
+ .dropcap.gray { background: #f6f7f8; color: #84ba3f; }
+ .dropcap.large { width: 70px; height: 70px; line-height: 70px; font-size: 30px; }
+ .dropcap.square {  border-radius: 3px; }

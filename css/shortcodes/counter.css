@@ -1,0 +1,30 @@
+
+/*************************
+        Counter
+*************************/
+.counter{ position:relative; color:#353535; min-height:60px; }
+.counter .icon { font-size: 40px; }
+.counter .timer { display: block; font-size: 44px; font-weight: 600; line-height: 40px; margin: 20px 0 5px; }
+.counter label { font-size: 15px; font-weight: 600; margin: 10px 0 0; position: relative; text-transform: uppercase; }
+.counter.text-white { color:#ffffff; }
+.counter.text-white label { color:#ffffff; }
+.counter.text-white span { color:#ffffff; }
+.counter.theme-color { color:#84ba3f; }
+.counter.theme-color label { color:#84ba3f; }
+.counter.theme-color span { color:#84ba3f; }
+
+/*big-counter*/
+.counter.big-counter .timer { font-size: 70px; font-weight: 600; }
+.counter.big-counter label { font-size: 18px; font-weight: 300; margin-top: 20px; }
+.counter.big-counter icon {  font-size: 50px; line-height: 60px; }
+
+ /*left-icon*/
+.counter.left-icon { position:relative; padding-left:70px; }
+.counter.left-icon .icon { font-size:40px; line-height:50px; position:absolute; left:0; bottom:auto; top:0; }
+.counter.left-icon span { margin:0; line-height:40px; }
+
+ /*left-icon*/
+.counter.right-icon { position:relative; padding-right:70px; }
+.counter.right-icon .icon { font-size:40px; line-height:50px; position:absolute; right:0; bottom:auto; top:0; }
+.counter.right-icon span { margin:0; line-height:40px; text-align: right; }
+.counter.right-icon label  { text-align: right; display: block; }

@@ -1,0 +1,30 @@
+
+/*************************
+	  list-style
+*************************/
+ul.list { padding:0; margin:0;  }
+ul.list li { margin:5px 0; padding-left:24px; position: relative; line-height: 28px; }
+ul.list i { position: absolute; left: 0; top: 5px; }
+ul.list.theme-color li i { color: #84ba3f; }
+ul.list.theme-color li { color: #333333; }
+ul.list li:after { content:""; font-family: 'FontAwesome'; position:absolute; color:#84ba3f; left:0; top:0; }
+
+/* Ul List Mark */
+ul.list-mark{padding:0; margin:0;}
+ul.list-mark li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-mark li:after{content:"\f00c";}
+
+/* Ul List Arrow */
+ul.list-arrow{padding:0; margin:0;}
+ul.list-arrow li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-arrow li:after{content:"\f105"; font-size:18px;}
+
+/* Ul List Hand */
+ul.list-hand{padding:0; margin:0;}
+ul.list-hand li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-hand li:after{content:"\f0a4";}
+
+/* Ul List Edit */
+ul.list-edit{padding:0; margin:0;}
+ul.list-edit li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-edit li:after{content:"\f040";}

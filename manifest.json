@@ -1,0 +1,46 @@
+{
+  // Extension ID: knldjmfmopnpolahpmmgbagdohdnhkik
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcBHwzDvyBQ6bDppkIs9MP4ksKqCMyXQ/A52JivHZKh4YO/9vJsT3oaYhSpDCE9RPocOEQvwsHsFReW2nUEc6OLLyoCFFxIb7KkLGsmfakkut/fFdNJYh0xOTbSN8YvLWcqph09XAY2Y/f0AL7vfO1cuCqtkMt8hFrBGWxDdf9CQIDAQAB",
+  "name": "AcerWebVREmulator",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Acer WebVR Emulator",
+ "icons": {
+    "128": "webvr_extension128.png"
+  }, 
+  "browser_action": {
+    "default_icon": {
+		"16": "webvr_extension16.png",
+		"24": "webvr_extension24.png"
+	},	
+	"default_title": "AcerWebVREmulator",
+  "default_popup": "main.html"
+  },
+  "options_page": "index.html",
+  // "app": {
+  //  "launch": {
+  //     "local_path": "main.html"
+  //   }
+  // },
+  "background": {
+    "scripts": ["background.js" ],
+    "persistent": true
+  },
+  "permissions": [
+    "nativeMessaging",
+	  "activeTab",
+    "storage",
+    "<all_urls>",
+    "contextMenus",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "polyfill.js"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content-script.js" ],
+    "run_at": "document_start",
+    "all_frames": true
+  } ]  
+}

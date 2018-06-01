@@ -1,0 +1,46 @@
+
+/*************************
+        tab
+*************************/
+ /*tab 1*/
+.tab .nav.nav-tabs { border: none; margin-bottom: 30px; }
+.tab .nav.nav-tabs li { margin-bottom: 0px; float: none; display: inline-block; }
+.tab .nav.nav-tabs li a { border: none; line-height: normal; border-radius: 0px; padding: 12px 30px; background: #f6f7f8; color: #353535; border:1px solid #eeeeee; }
+.tab .nav.nav-tabs li a i { padding-right: 15px; }
+.tab .nav.nav-tabs > li.active > a, .nav.nav-tabs > li.active > a:focus, .nav.nav-tabs > li.active > a:hover {  background: #84ba3f; color: #fff; border-color:#84ba3f; }
+
+/*nav-border*/
+.nav-border .nav.nav-tabs li a { margin-right: 0; border:1px solid #eeeeee; background: transparent; }
+.nav-border .nav.nav-tabs > li.active > a, .nav-border .nav.nav-tabs > li.active > a:focus, .nav-border .nav.nav-tabs > li.active > a:hover { color: #ffffff;  background: #84ba3f;  border-color:#84ba3f; }
+
+/*tab-border*/
+.tab-border .nav.nav-tabs { margin-bottom: 0; }
+.tab-border .tab-content { padding: 20px; border:1px solid #eeeeee; margin-top: -2px; }
+.tab-border .nav.nav-tabs > li.active > a, .tab-border .nav.nav-tabs > li.active > a:focus, .tab-border .nav.nav-tabs > li.active > a:hover { color: #84ba3f;  background: #ffffff !important;  border-color:#eeeeee; border-bottom: 0; }
+
+/*nav-center*/
+.nav-center .nav.nav-tabs { text-align: center; }
+
+/*round*/
+.round .nav.nav-tabs li a { border: none; line-height: normal; margin-right: 10px; border-radius: 90px; padding: 12px 30px; background: #f6f7f8; color: #353535; }
+ 
+/*shadow*/
+.shadow .nav.nav-tabs > li.active > a, .shadow .nav.nav-tabs > li.active > a:focus, .shadow .nav.nav-tabs > li.active > a:hover { color: #84ba3f;  background: #ffffff !important;  border-color:#eeeeee; border-bottom: 0; box-shadow:  0px 3px 10px rgba(0, 0, 0, 0.1); }
+
+/*tab-vertical*/
+.tab-vertical .nav-tabs { float: left; width: 25%; }
+.tab-vertical .nav.nav-tabs li {  display: block; }
+.tab-vertical .nav.nav-tabs li a { border-right: 0; border-top: 0; padding: 14px 30px; }
+.tab-vertical .nav.nav-tabs li:first-child a { border-top: 1px solid #eeeeee; }
+.tab-vertical .tab-content { background-color: #fff; border: 1px solid #e9e9e9; padding: 40px 30px; margin-left: 24.8%; line-height: 30px; margin-top: 0; }
+.tab-vertical .tab-content p { line-height: 30px; }
+.tab-vertical .nav.nav-tabs > li.active > a, .tab-vertical .nav.nav-tabs > li.active > a:focus, .tab-vertical .nav.nav-tabs > li.active > a:hover { border-bottom: 1px solid #eeeeee; }
+
+/*vertical-right*/
+.vertical-right .nav-tabs { float: right; }
+.vertical-right .nav.nav-tabs li a { border-right: 1px solid #eeeeee; border-left: 0; }
+.vertical-right .tab-content {  margin-right: 24.8%; margin-left: inherit; text-align: right; }
+
+/* dropdown */
+.tab-dropdown .tab-content { margin-top: 30px; }
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover { background: #84ba3f; color: #ffffff; }

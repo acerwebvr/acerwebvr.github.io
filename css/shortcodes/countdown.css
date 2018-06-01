@@ -1,0 +1,38 @@
+
+/*************************
+    countdown
+*************************/
+.countdown { display: inline-block; text-align: center; margin: 0px 20px; }
+.countdown span { font-size: 40px; line-height: 40px; }
+.countdown p { font-size: 16px; text-transform: capitalize; margin-bottom: 0; }
+
+/*small*/
+.countdown.small { display: inline-block; text-align: center; margin: 0px 10px; }
+.countdown.small span { font-size: 30px; line-height: 30px; }
+
+/*medium*/
+.countdown.medium { display: inline-block; text-align: center; margin: 0px 30px; }
+.countdown.medium span { font-size: 50px; line-height: 50px; }
+.countdown.medium p { font-size: 20px; text-transform: capitalize; }
+
+/*large*/
+.countdown.large { display: inline-block; text-align: center; margin: 0px 40px; }
+.countdown.large span { font-size: 70px; line-height: 70px; }
+.countdown.large p { font-size: 24px; text-transform: capitalize; }
+
+/*gray-bg */
+.countdown.gray-bg { padding: 10px; }
+
+/*border*/
+.countdown.border { padding: 10px; border:2px solid #eeeeee; }
+
+/*border*/
+.countdown.round { padding: 30px; border:7px solid #eeeeee; border-radius: 50%;  width: 140px; height: 140px; }
+.countdown.round.small { width: 100px; height: 100px; padding: 15px 10px; }
+.countdown.round.medium { width: 150px; height: 150px; padding: 15px; }
+.countdown.round.medium span { line-height: 68px;  }
+.countdown.round.large { width: 190px; height: 190px; padding: 20px; }
+.countdown.round.large span { line-height: 102px; }
+
+.countdown.text-white p { color: #ffffff; }
+.countdown.round.text-white { border-color: rgba(255, 255, 255, 0.3); }

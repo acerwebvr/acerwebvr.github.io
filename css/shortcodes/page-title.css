@@ -1,0 +1,45 @@
+
+/*************************************
+       page-title
+**************************************/
+.page-title { display: block; padding-top:250px; padding-bottom: 100px; position: relative; }
+.page-title.bg-overlay-black-60:before  { z-index: 0; }
+.page-title .container { height: 100%; position: relative; }
+.page-title span { text-transform: capitalize; }
+.page-title h1 { text-transform: capitalize; color: #ffffff; font-weight: 600; }
+.page-title p { font-size: 18px; text-transform: capitalize; color: #ffffff; }
+.page-title .page-title-name { display: inline-block; width: 60%; }
+.page-title .page-breadcrumb { float: right; width: 40%; text-align: right; }
+ul.page-breadcrumb li span {  color: #fff; font-size: 14px; text-transform: capitalize; }
+ul.page-breadcrumb { padding-top: 30px; }
+ul.page-breadcrumb li { color: #fff; display: inline-block; list-style: none; }
+ul.page-breadcrumb li i { font-size: 14px; padding: 0 7px;} 
+ul.page-breadcrumb li a { color: #fff; font-size: 14px; text-transform: capitalize; }
+ul.page-breadcrumb li a:hover {  color: #84ba3f; }
+.page-title.gray-bg h1, .page-title.gray-bg p { color: #323232; }
+.page-title.gray-bg ul.page-breadcrumb li a { color: #323232; }
+.page-title.gray-bg ul.page-breadcrumb li a:hover { color: #84ba3f; }
+.page-title.gray-bg ul.page-breadcrumb li { color: #323232; }
+.page-title.gray-bg ul.page-breadcrumb li span { color: #84ba3f; }
+
+/*center*/
+.page-title.center { text-align: center; }
+.page-title.center .page-title-name { display: block; width: inherit; }
+.page-title.center .page-breadcrumb { float: none; width: inherit; text-align: center; }
+
+/*right*/
+.page-title.right { clear: both; }
+.page-title.right .page-title-name { display: inline-block; float: right; text-align: right; }
+.page-title.right .page-breadcrumb { float: left; text-align: left; }
+
+/*small*/
+.page-title.small { padding-top:20px; padding-bottom: 20px; position: relative; }
+.page-title.small h1 { font-size: 22px; line-height: 24px; margin-bottom: 0px; margin-top: 8px; }
+.page-title.small .page-breadcrumb { padding-top: 10px; }
+
+/*gray-bg */
+.page-title.pattern h1, .page-title.pattern p { color: #323232; }
+.page-title.pattern ul.page-breadcrumb li a { color: #323232; }
+.page-title.pattern ul.page-breadcrumb li a:hover { color: #84ba3f; }
+.page-title.pattern ul.page-breadcrumb li { color: #323232; }
+.page-title.pattern ul.page-breadcrumb li span { color: #84ba3f; }
