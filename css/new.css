@@ -58,6 +58,14 @@
     padding: 0;
 }
 
+.mega-menu .drop-down-multilevel {
+    max-width: 100px;
+}
+
+.search-cart .search {
+    margin-top: -5px;
+}
+
 .advertise {
     margin: 50px 15px 0 15px;
 }
@@ -97,12 +105,22 @@
     margin-top: 10px;
 }
 
+.footer.black-bg {
+    padding: 10px;
+}
+
+
 @media (min-width: 993px) {
-    .menu-bar .isotope-filters button img{
+    .menu-bar .isotope-filters button img,
+    .hideindestop{
         display: none;
     }
 }
 @media (max-width: 992px) {
+    .showindestoponly{
+        display: none !important;
+    }
+    
     .search-cart {
         line-height: 60px;
     }
@@ -113,8 +131,10 @@
     .mega-menu .menu-logo > li {
         width: auto;
     }
+    
+    .page-title {
+        padding-top: 50px;
+    }
 }
 
-.footer.black-bg {
-    padding: 10px;
-}
+
