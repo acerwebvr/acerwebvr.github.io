@@ -109,6 +109,31 @@
     padding: 10px;
 }
 
+.process {
+    border: 0;
+}
+
+.header-download-btn {
+    padding: 0 10px!important;
+    line-height: 30px!important;
+    margin-right: 10px!important;
+}
+
+.pager {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    background: #f6f7f8;
+    border: 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 5px;
+    color: #626262;
+    border-radius: 50%;
+}
 
 @media (min-width: 993px) {
     .menu-bar .isotope-filters button img,

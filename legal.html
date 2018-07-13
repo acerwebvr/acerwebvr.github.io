@@ -32,9 +32,15 @@
 
  <link rel="stylesheet" type="text/css" href="css/new.css" />
  
+<!-- include js libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.7.2/angular-translate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.js"></script>
+
 </head>
 
-<body>
+<body ng-app="app" ng-controller="Ctrl">
 
 <div class="wrapper">
 
@@ -116,7 +122,7 @@ page-title -->
 
 
 <!--=================================
- portfolio -->
+ main -->
 
 <section class="white-bg page-section-ptb">
   <div class="container-fluid">
@@ -285,19 +291,13 @@ Links to third party websites on this website are provided solely as a convenien
 
 
 <!--=================================
- portfolio -->
+ main -->
     </section>
 
 <!--=================================
  footer -->
  
-<footer class="footer black-bg pt-10 pb-10">
- <div class="container">
-    <div class="row">
-      <p class="mt-15 ft-center">All trademarks, images, product names and logos appearing on the site are the property of their respective owners.｜ <span><a class="text-white" href="legal.html">Legal</a></span></p>
-    </div>    
-  </div>
-</footer>
+<ng-include src="'footer.html'"></ng-include>
 
 <!--=================================
  footer -->
@@ -306,7 +306,7 @@ Links to third party websites on this website are provided solely as a convenien
  
  
 
-<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div> 
+<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span translate="TOP">TOP</span></a></div> 
  
 <!--=================================
  jquery -->
@@ -326,6 +326,8 @@ Links to third party websites on this website are provided solely as a convenien
 
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="js/filter.js"></script>
+<script type="text/javascript" src="js/google-analytics.js"></script>
+<script type="text/javascript" src="js/google-analytics.js"></script>
 </body>
 </html>
 
