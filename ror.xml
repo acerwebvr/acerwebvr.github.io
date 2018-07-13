@@ -21,6 +21,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://acerwebvr.github.io/download_page.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://acerwebvr.github.io/national_geographic.html</link>
      <title>Acer WebVR Start Page</title>
      <description>Acer WebVR</description>
@@ -229,14 +237,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://acerwebvr.github.io/cru_ci_form.html</link>
-     <title>Acer WebVR Start Page</title>
-     <description>Acer WebVR</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>https://acerwebvr.github.io/gurivr.html</link>
      <title>Acer WebVR Start Page</title>
      <description>Acer WebVR</description>
@@ -438,6 +438,46 @@
 </item>
 <item>
      <link>https://acerwebvr.github.io/imagined_reality.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://acerwebvr.github.io/spider.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://acerwebvr.github.io/float.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://acerwebvr.github.io/resonate_audio_reactive.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://acerwebvr.github.io/black_rain.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://acerwebvr.github.io/eutow.html</link>
      <title>Acer WebVR Start Page</title>
      <description>Acer WebVR</description>
      <ror:updatePeriod></ror:updatePeriod>

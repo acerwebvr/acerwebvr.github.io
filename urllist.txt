@@ -1,5 +1,6 @@
 https://acerwebvr.github.io/
 https://acerwebvr.github.io/index.html
+https://acerwebvr.github.io/download_page.html
 https://acerwebvr.github.io/national_geographic.html
 https://acerwebvr.github.io/the_british_museum.html
 https://acerwebvr.github.io/national_gallery.html
@@ -26,7 +27,6 @@ https://acerwebvr.github.io/netflix_stranger_things_count_down.html
 https://acerwebvr.github.io/panomoments.html
 https://acerwebvr.github.io/witchs_brew.html
 https://acerwebvr.github.io/night_eye.html
-https://acerwebvr.github.io/cru_ci_form.html
 https://acerwebvr.github.io/gurivr.html
 https://acerwebvr.github.io/ye_olde_puppetrilla.html
 https://acerwebvr.github.io/vizor_3_cubemaps.html
@@ -53,4 +53,9 @@ https://acerwebvr.github.io/animeui.html
 https://acerwebvr.github.io/pokemon.html
 https://acerwebvr.github.io/shooting_stars.html
 https://acerwebvr.github.io/imagined_reality.html
+https://acerwebvr.github.io/spider.html
+https://acerwebvr.github.io/float.html
+https://acerwebvr.github.io/resonate_audio_reactive.html
+https://acerwebvr.github.io/black_rain.html
+https://acerwebvr.github.io/eutow.html
 https://acerwebvr.github.io/legal.html
