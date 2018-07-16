@@ -137,12 +137,13 @@
 
 @media (min-width: 993px) {
     .menu-bar .isotope-filters button img,
-    .hideindestop{
+    .hideindesktop{
         display: none;
     }
+    
 }
 @media (max-width: 992px) {
-    .showindestoponly{
+    .showindesktoponly{
         display: none !important;
     }
     
@@ -160,6 +161,14 @@
     .page-title {
         padding-top: 50px;
     }
+    
+/*
+    .header-download-btn {
+        color: #000!important;
+        margin-left: 15px!important;
+        border: 2px solid #000!important;
+    }
+*/
 }
 
 
