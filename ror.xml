@@ -237,6 +237,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://acerwebvr.github.io/cru_ci_form.html</link>
+     <title>Acer WebVR Start Page</title>
+     <description>Acer WebVR</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://acerwebvr.github.io/gurivr.html</link>
      <title>Acer WebVR Start Page</title>
      <description>Acer WebVR</description>
