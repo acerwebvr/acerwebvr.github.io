@@ -59,4 +59,9 @@ https://acerwebvr.github.io/float.html
 https://acerwebvr.github.io/resonate_audio_reactive.html
 https://acerwebvr.github.io/black_rain.html
 https://acerwebvr.github.io/eutow.html
+https://acerwebvr.github.io/chordano.html
+https://acerwebvr.github.io/babylon_js_Sponza_demo.html
+https://acerwebvr.github.io/epic_medieval_battle.html
+https://acerwebvr.github.io/elfland_glider.html
+https://acerwebvr.github.io/global_seed_vault.html
 https://acerwebvr.github.io/legal.html
