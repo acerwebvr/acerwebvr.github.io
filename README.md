@@ -3,6 +3,9 @@
 # Acer WebVR Start Page
 The Acer WebVR Start Page is a collection of WebVR sites for Acer's WebVR solution.
 
+Download
+https://acerwebvr.github.io/download_page.html
+
 # Announcing Acer VR Utility for Chrome Browser WebVR
 
 Simplified Setup
