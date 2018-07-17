@@ -1,3 +1,5 @@
+<img src="images/Banner.png">
+
 # Acer WebVR Start Page
 The Acer WebVR Start Page is a collection of WebVR sites for Acer's WebVR solution.
 
