@@ -271,10 +271,34 @@ var app = angular.module('app', ['pascalprecht.translate']);
         global_seed_vault_A:"Crop Trust",
         global_seed_vault_C:"Experience the visit of the Global Seed Vault in Svalbard.",
 
-
-
+        studio_venezia:"Studio Venezia",
+        studio_venezia_A:"Studio Venezia",
+        studio_venezia_C:"Xavier Veilhan's French pavilion.",
+        
+        ufomammoot:"ufomammoot",
+        ufomammoot_A:"ufomammoot",
+        ufomammoot_C:"We are an independent digital agency based in Berlin providing innovative & creative concepts for brands.",
+        
+        ocean_of_thought:"Ocean Of Thought",
+        ocean_of_thought_A:"machinedrum",
+        ocean_of_thought_C:"Vizor is a platform for creating and sharing VR experiences.",
+        
+        super_says:"Super Says",
+        super_says_A:"supermedium",
+        super_says_C:"Test your memory with this Simon minigame in WebVR.",
+        
+        trajectile_command:"Trajectile Command",
+        trajectile_command_A:"AdamAlexandr",
+        trajectile_command_C:"A free WebVR action game using @aframevr.",
+        
+        mathworld_vr:"Mathworld VR",
+        mathworld_vr_A:"michaltakac",
+        mathworld_vr_C:"I am convinced that the best learning takes place when the learner takes charge.",
+        
         footer_statement:"All trademarks, images, product names and logos appearing on the site are the property of their respective owners.",
         footer_legal:"legal",
+        Search:"Search",
+        Language:"Language",
         BUTTON_LANG_EN:"English",
         BUTTON_LANG_ES:"Chinese"
     });
@@ -401,9 +425,11 @@ var app = angular.module('app', ['pascalprecht.translate']);
         Night_Eye_A:"Christmas Experiments",
         Night_Eye_C:"Explore the night forest, manipulate the elements and frolic with the light creatures.",
 
+        /*
         cru_ci_form:"cru ci form",
         cru_ci_form_A:"thespite + sejnulla",
         cru_ci_form_C:"A study in architectural visualisation.",
+        */
 
         GuriVR:"GuriVR",
         GuriVR_A:"GuriVR",
@@ -541,10 +567,34 @@ var app = angular.module('app', ['pascalprecht.translate']);
         global_seed_vault_A:"Crop Trust",
         global_seed_vault_C:"Experience the visit of the Global Seed Vault in Svalbard.",
 
-
+        studio_venezia:"Studio Venezia",
+        studio_venezia_A:"Studio Venezia",
+        studio_venezia_C:"Xavier Veilhan's French pavilion.",
+        
+        ufomammoot:"ufomammoot",
+        ufomammoot_A:"ufomammoot",
+        ufomammoot_C:"We are an independent digital agency based in Berlin providing innovative & creative concepts for brands.",
+        
+        ocean_of_thought:"Ocean Of Thought",
+        ocean_of_thought_A:"machinedrum",
+        ocean_of_thought_C:"Vizor is a platform for creating and sharing VR experiences.",
+        
+        super_says:"Super Says",
+        super_says_A:"supermedium",
+        super_says_C:"Test your memory with this Simon minigame in WebVR.",
+        
+        trajectile_command:"Trajectile Command",
+        trajectile_command_A:"AdamAlexandr",
+        trajectile_command_C:"A free WebVR action game using @aframevr.",
+        
+        mathworld_vr:"Mathworld VR",
+        mathworld_vr_A:"michaltakac",
+        mathworld_vr_C:"I am convinced that the best learning takes place when the learner takes charge.",
         
         footer_statement:"本網站上出現的所有資料，包括商標、圖片、商標名、文字均為其所有者的財產，受到全球商標及著作權法的保護",
         footer_legal:"法律聲明",
+        Search:"搜尋",
+        Language:"語言",
         BUTTON_LANG_EN:"英文",
         BUTTON_LANG_ES:"中文"
     });

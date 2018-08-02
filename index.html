@@ -38,12 +38,7 @@
 <script src="js/app.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.7.2/angular-translate.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.js"></script>
-
-<!-- include js libraries -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-<script src="js/app.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.7.2/angular-translate.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>-->
 
 </head>
 
@@ -78,78 +73,74 @@
         <!-- menu logo -->
         <ul class="menu-logo">
             <li>
-                <a href="index.html"><img id="logo_img" src="images/acer_logo.svg" alt="logo">
-<!--
-            </li>
-            <li>
--->
-<!--                <span style="margin-top: 20px">Acer WebVR Start Page</span>-->
+                <a href="index.html">
+                <img id="logo_img" src="images/acer_logo.svg" alt="logo">
                 </a>
             </li>
         </ul>
         <!-- menu links -->
         <div class="menu-bar" style="line-height: 100px;">
          <div class="isotope-filters filter-button-group">
-            <ul class="menu-links filter-button-group" style="display: none; max-height: 400px; overflow: auto; line-height: 60px;  padding-top: 0px;">
-                 <li><button data-filter="*" class="active" translate="All"><img src="images/icon/ic_all_n.png" />All</button></li>
+            <ul class="menu-links filter-button-group filters" style="display: none; max-height: 400px; overflow: auto; line-height: 60px;  padding-top: 0px;">
+                 <li><button href="javascript:void(0);" data-filter="*" class="active"><img src="images/icon/ic_all_n.png" /><span translate="All">All</span></button></li>
                  <!-- <li><button data-filter=".museum"><img src="images/icon/ic_museum_n.png" />Museum</button></li> -->
-                <li><button data-filter=".education"  translate="Education"><img src="images/icon/ic_education_n.png" />Education </button></li>
-                <li><button data-filter=".tourism"  translate="Tourism"><img src="images/icon/ic_tourism_n.png" />Tourism</button></li>
-                <li><button data-filter=".entertainment"  translate="Entertainment"><img src="images/icon/ic_entertainment_n.png" />Entertainment</button></li>
-                <li><button data-filter=".developer"  translate="Developer"><img src="images/icon/ic_gaming_n.png" />Developer</button></li>
+                <li><button href="javascript:void(0);" data-filter=".education"><img src="images/icon/ic_education_n.png" /><span translate="Education">Education</span></button></li>
+                <li><button href="javascript:void(0);" data-filter=".tourism"><img src="images/icon/ic_tourism_n.png" /><span translate="Tourism">Tourism</span></button></li>
+                <li><button href="javascript:void(0);" data-filter=".entertainment"><img src="images/icon/ic_entertainment_n.png" /><span translate="Entertainment">Entertainment</span></button></li>
+                <li><button href="javascript:void(0);" data-filter=".developer"><img src="images/icon/ic_gaming_n.png" /><span translate="Developer">Developer</span></button></li>
                 
                 <li class="showindesktoponly"><a href="download_page.html" target="_blank"><button class="button border x-small white header-download-btn" translate="Download">Download</button></a></li>
-         
-<!--                 <li class="hoverTrigger showindesktoponly">
-<a href="javascript:void(0)"><i class="fa fa-globe"></i><i class="fa fa-angle-down fa-indicator"></i><div class="mobileTriggerButton"></div></a>
-drop down multilevel
-<ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
-    
-    <li class="hoverTrigger"><a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English
-    <div class="mobileTriggerButton"></div></a>
-    </li>
-    <li class="hoverTrigger"><a href="javascript:void(0)" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">ä¸­æ? 
-    <div class="mobileTriggerButton"></div></a> 
-    </li>
-</ul>
-</li>
+				<!--
+				
+                <li class="hoverTrigger showindesktoponly lang">
+                <a href="javascript:void(0)"><i class="fa fa-globe"></i><i class="fa fa-angle-down fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+                drop down multilevel
+                <ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
+                    <li class="hoverTrigger"><a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English
+                    <div class="mobileTriggerButton"></div></a>
+                    </li>
+                    <li class="hoverTrigger"><a href="javascript:void(0)" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">ä¸­æ? 
+                    <div class="mobileTriggerButton"></div></a> 
+                    </li>
+                </ul>
+                </li>
+                
+                
+                <li class="hoverTrigger showindesktoponly search ml-10">
+                <a href="javascript:void(0)"><i class="fa fa-search"></i><div class="mobileTriggerButton"></div></a>
+                drop down multilevel
+                <ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
+                    <li class="hoverTrigger">
+                        <script src="search.js"></script>
+                        <gcse:searchbox-only></gcse:searchbox-only>
+                    </li>
+                    
+                </ul>
+                </li>
+                
+				
+                <li class="hoverTrigger hideindesktop lang pl-20" style="border-top: 1px #aaa solid;">
+                <a href="javascript:void(0)"><span translate="Language">Language</span><i class="fa fa-angle-down fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+                 drop down multilevel  
+                <ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
+                    <li class="hoverTrigger"><a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English
+                    <div class="mobileTriggerButton"></div></a>
+                    </li>
+                    <li class="hoverTrigger"><a href="javascript:void(0)" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">ä¸­æ? 
+                    <div class="mobileTriggerButton"></div></a> 
+                    </li>
+                </ul>
+                </li>
+                -->
+                
+                <li class="hoverTrigger hideindesktop mobile-search pl-10 pt-10 pb-10">
+                        <script src="search.js"></script>
+                        <gcse:searchbox-only></gcse:searchbox-only>
+                </li>
+                
 
-<li class="showindesktoponly">
-<div class="search-cart">
-   <div class="search">
-    <a class="search-btn not_click" href="javascript:void(0);"></a>s
-    <div class="search-box not-click">
-         <input type="text" class="not-click form-control" placeholder="{{ 'SEARCH' | translate }}" value="" name="s">
-       <i class="fa fa-search"></i>
-   </div>
-  </div>
-               </div>
-</li> -->
             </ul>
         
-        
-<!--         <div class="search-cart hideindesktop">
-  <div class="search">
-    <a class="search-btn not_click" href="javascript:void(0);"></a>
-      <div class="search-box not-click">
-         <input type="text" class="not-click form-control" placeholder="Search" value="" name="s" translate="search">
-       <i class="fa fa-search"></i>
-   </div>
-  </div>
-
-  <div class="shpping-cart">
-   <a class="cart-btn" href="#"> <i class="fa fa-globe icon"></i></a>
-    <div class="cart">
-      <div class="cart-item">
-        <div class="cart-name clearfix">
-          <a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English</a>
-          <a href="#" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">ä¸­æ?</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-        </div>
         
         </div>
         
@@ -489,16 +480,18 @@ page-title -->
                   </a>
                </div>
               
-<!--                 <div class="element-item grid-item entertainment" data-filter=".entertainment">
+<!--
+                <div class="element-item grid-item entertainment" data-filter=".entertainment">
               <a href="cru_ci_form.html">
                <div class="portfolio-item">
-   <img src="images/main_page/cru_ci_form_01.jpg" alt="">
-     <div class="portfolio-overlay">
-        <h4 class="" translate="cru_ci_form">cru ci form</h4>
-      </div>
-</div>
-  </a>
-               </div> -->
+                   <img src="images/main_page/cru_ci_form_01.jpg" alt="">
+                     <div class="portfolio-overlay">
+                        <h4 class="" translate="cru_ci_form">cru ci form</h4>
+                      </div>
+                </div>
+                  </a>
+               </div>
+-->
               
                <div class="element-item grid-item tourism" data-filter=".tourism">
               <a href="gurivr.html">
@@ -892,7 +885,7 @@ page-title -->
                     </div>
                 </a>
             </div>
-              
+            
             <div class="element-item grid-item entertainment" data-filter=".entertainment">
                 <a href="studio_venezia.html">
                     <div class="portfolio-item">
@@ -960,75 +953,29 @@ page-title -->
             </div>
               
          </div>
+            
+         </div>
              
-<!--         page-->
-<!--
-         <nav aria-label="...">
-             <ul class="pagination">
-                <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">Â«</span></a></li>
-                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-                <li><a href="index_p2.html">2</a></li>
-                <li><a href="index_p2.html" aria-label="Next"><span aria-hidden="true">Â»</span></a></li>
-             </ul>
-          </nav>
--->
          
        </div>
      </div>
-    </div> 
- <!--     
-    <div class="advertise">
-            <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
-             <div class="feature-3 mb-20">
-                <div class="feature-3-image">
-                   <img alt="" src="images/800x550/Fallout%204.png" class="img-responsive">
-                 </div>
-             </div>
-           </div>
-           <div class="col-lg-3 col-md-3 col-sm-3">
-             <div class="feature-3 mb-20">
-                <div class="feature-3-image ">
-                   <img alt="" src="images/800x550/HALO.png" class="img-responsive">
-                 </div>
-             </div>
-           </div>
-           <div class="col-lg-3 col-md-3 col-sm-3">
-             <div class="feature-3 mb-20">
-                <div class="feature-3-image">
-                   <img alt="" src="images/800x550/Hidden%20Temple%20.png" class="img-responsive">
-                 </div>
-             </div>
-           </div>
-           <div class="col-lg-3 col-md-3 col-sm-3">
-             <div class="feature-3 mb-20">
-                <div class="feature-3-image">
-                   <img alt="" src="images/800x550/RIGS.png" class="img-responsive">
-                 </div>
-             </div>
-           </div>
-         </div>
-    </div>
-   </section>
 
-  -->
 <!--=================================
  main -->
     </section>
 
+
 <!--=================================
  footer -->
- 
 <footer class="footer black-bg pt-10 pb-10">
  <div class="container">
     <div class="row">
       <p class="mt-15 ft-center">
-      <span translate="footer_statement">All trademarks, images, product names and logos appearing on the site are the property of their respective owners.</span>ï½?
+      <span translate="footer_statement">All trademarks, images, product names and logos appearing on the site are the property of their respective owners.</span> | 
       <span><a class="text-white" href="legal.html" translate="footer_legal">Legal</a></span></p>
     </div>    
   </div>
 </footer>
-
 <!--=================================
  footer -->
 
@@ -1055,12 +1002,72 @@ page-title -->
 <script type="text/javascript" src="js/custom.js"></script>
 
 <script type="text/javascript" src="js/isotope.js"></script>
-<script type="text/javascript" src="js/filter.js"></script>
+
 
 
 <script>
-    $(document).ready( function() {
+$(document).ready( function() {
 
+    function getHashFilter() {
+  // get filter=filterName
+    var matches = location.hash.match( /filter=([^&]+)/i );
+    var hashFilter = matches && matches[1];
+    return hashFilter && decodeURIComponent( hashFilter );
+    }
+
+// init Isotope
+    var $grid = $('#container');
+    var click = false;
+// bind filter button click
+    var $filterButtonGroup = $('.filter-button-group');
+    var filter1;
+    
+    $filterButtonGroup.on( 'click', 'button', function() {
+        var filterAttr = $( this ).attr('data-filter');
+  // set filter in hash
+        location.hash = 'filter=' + encodeURIComponent( filterAttr );
+    });
+
+    var isIsotopeInit = false;
+
+    function onHashchange() {
+        var hashFilter = getHashFilter();
+        if ( !hashFilter && isIsotopeInit) {
+            return;
+        }
+    
+        isIsotopeInit = true;
+
+      // filter isotope
+        $grid.isotope({
+            itemSelector: '.element-item',
+            layoutMode: 'fitRows',
+            filter: hashFilter
+        });
+
+        if(click==true){
+            goToPage(1);
+        }
+
+
+      // set selected class on button
+        if ( hashFilter ) {
+//            alert("A");
+            $filterButtonGroup.find('.active').removeClass('active');
+            $filterButtonGroup.find('[data-filter="' + hashFilter + '"]').addClass('active');
+            filter1 = hashFilter;
+            
+//            alert("last"+filter1);
+        }
+  
+    }
+
+    $(window).on( 'hashchange', onHashchange );
+// trigger event handler to init Isotope
+    onHashchange();
+        
+//paging******************
+        
 	var itemSelector = '.grid-item'; 
 
 	var $container = $('#container').isotope({
@@ -1081,10 +1088,12 @@ page-title -->
 	var itemsPerPage = defineItemsPerPage();
 	var currentNumberPages = 1;
 	var currentPage = 1;
-	var currentFilter = '*';
+    var hashFilter = getHashFilter();
+    var currentFilter = ((hashFilter == null || hashFilter == 'undefined') ? '*' : hashFilter );
 	var filterAtribute = 'data-filter';
 	var pageAtribute = 'data-page';
 	var pagerClass = 'pagination';
+    
 
 	function changeFilter(selector) {
 		$container.isotope({
@@ -1095,11 +1104,9 @@ page-title -->
 
 	function goToPage(n) {
 		currentPage = n;
-
 		var selector = itemSelector;
 			selector += ( currentFilter != '*' ) ? '['+filterAtribute+'="'+currentFilter+'"]' : '';
 			selector += '['+pageAtribute+'="'+currentPage+'"]';
-
 		changeFilter(selector);
 	}
 
@@ -1122,7 +1129,7 @@ page-title -->
 	function setPagination() {
 
 		var SettingsPagesOnItems = function(){
-
+            
 			var itemsLength = $container.children(itemSelector).length;
 			
 			var pages = Math.ceil(itemsLength / itemsPerPage);
@@ -1170,18 +1177,27 @@ page-title -->
 
 	setPagination();
 	goToPage(1);
+    
 
 	//Adicionando Event de Click para as categorias
-	$('.isotope-filters button').click(function(){
+
+	$('.filters button').click(function(){
+        $('.filters button').attr('disabled',false);
+        
 		var filter = $(this).attr(filterAtribute);
-		currentFilter = filter;
+        
+        $filterButtonGroup.find('.active').removeClass('active');
+        $(this).addClass('active');
+        
+        click = true;
+        currentFilter = filter;
+        setPagination();
+        goToPage(1);
+        $(this).attr('disabled',true);
 
-		setPagination();
-		goToPage(1);
-
-
+        
 	});
-
+        
 	//Evento Responsivo
 	$(window).resize(function(){
 		itemsPerPage = defineItemsPerPage();
@@ -1190,10 +1206,15 @@ page-title -->
 	});
 
 	
+        // external js: isotope.pkgd.js
+
+    
 
 });
 
 </script>
+<!--<script type="text/javascript" src="js/filter.js"></script>-->
+<!--<script type="text/javascript" src="js/page-scripts.js"></script>-->
 <script type="text/javascript" src="js/google-analytics.js"></script>
 </body>
 </html>

@@ -57,6 +57,7 @@
  <!--=================================
  header -->
 <ng-include src="'header.html'"></ng-include>
+<div id="fake-search"></div>
 <!--=================================
  header -->
 
@@ -136,6 +137,13 @@
 <script type="text/javascript" src="js/custom.js"></script>
  
 <script type="text/javascript" src="js/google-analytics.js"></script>
+
+<script>
+$(document).ready( function() {
+    $( "#fake-search" ).load( "search.html" );
+    $( "#fake-search" ).hide();
+});
+</script>
 </body>
 </html>
 

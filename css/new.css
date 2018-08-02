@@ -58,12 +58,137 @@
     padding: 0;
 }
 
-.mega-menu .drop-down-multilevel {
+
+.mega-menu  .drop-down-multilevel {
+    margin-top: 10px;
+}
+.mega-menu .lang .drop-down-multilevel {
     max-width: 100px;
 }
 
-.search-cart .search {
-    margin-top: -5px;
+.mega-menu .search .drop-down-multilevel {
+    margin-left: -230px;
+    max-width: 250px;
+/*    height: 50px!important;*/
+}
+
+/*
+.mega-menu .search .drop-down-multilevel *{
+    margin-top: -3px;
+}
+*/
+
+.mega-menu .search .drop-down-multilevel li{
+    height: 40px;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+    padding-left: 5px;
+    padding-right: 0;
+/*    height: 40px!important;*/
+}
+/*
+.gsc-input-box,
+.gsc-input-box-focus,
+.gsc-input-box-hover{
+    height: 30px!important;
+}
+.gsst_a {
+    padding-top: 0!important;
+}
+#gs_tti50{
+    padding: 0 3px;
+    height: 40px!important;
+}
+*/
+
+
+.gsc-control-cse
+{
+	padding:0px !important;
+	border-width:0px !important;
+}
+
+form.gsc-search-box,table.gsc-search-box
+{
+	margin-bottom:0px !important;
+}
+
+.gsc-search-box .gsc-input
+{
+	padding:0px 4px 0px 6px !important;
+}
+
+#gsc-iw-id1
+{
+	border-width: 0px !important;
+/*	height: auto !important;*/
+    height: 42px;
+    line-height: 42px;
+
+	box-shadow:none !important;
+}
+
+#gs_tti50
+{
+	padding:0px !important;
+}
+
+#gsc-i-id1
+{
+	height:20px !important;
+	padding:0px 3px!important;
+	background:none !important;
+	text-indent:0px !important;
+}
+
+.gsib_b
+{
+	display:none;
+}
+
+button.gsc-search-button
+{
+        display:block;
+/*
+        width:20px !important;
+        height:20px !important;
+*/
+        border-width:0px !important;
+        margin:0px !important;
+/*        padding: 5px 1px 5px 8px !important;*/
+        padding: 0 20px!important;
+        outline:none;
+        cursor:pointer;
+        box-shadow:none !important;
+        box-sizing: content-box !important;
+    line-height: 40px;
+}
+
+.gsc-branding
+{
+	display:none !important;
+}
+
+.gsc-control-cse,#gsc-iw-id1
+{
+	background-color:transparent !important;
+}
+table.gsc-search-box td#gs_tti50{
+    vertical-align: -webkit-baseline-middle!important;
+}
+
+.gsc-search-button-v2 svg {
+    width: 15px;
+    height: 15px;
+}
+
+table.gsc-search-box td{
+    vertical-align:top!important;
+}
+
+.mobile-search table.gsc-search-box td{
+    vertical-align:middle!important;
 }
 
 .advertise {
@@ -135,10 +260,11 @@
     border-radius: 50%;
 }
 
+
 @media (min-width: 993px) {
     .menu-bar .isotope-filters button img,
     .hideindesktop{
-        display: none;
+        display: none!important;
     }
     
 }

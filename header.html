@@ -1,3 +1,9 @@
+ <script>
+        $(document).ready( function() {
+alert("???");
+$( "#search-input-box" ).load( "search.html" );
+        });
+</script>
  <header id="header" class="header default">
 
 <!--=================================
@@ -27,67 +33,87 @@
         <div class="menu-bar" style="line-height: 100px;">
          <div class="isotope-filters filter-button-group">
             <ul class="menu-links filter-button-group" style="display: none; max-height: 400px; overflow: auto; line-height: 60px;  padding-top: 0px;">
-                <li><a href="index.html"><button translate="All"><img src="images/icon/ic_all_n.png" />All</button></a></li>
+                <li><a href="index.html"><button><img src="images/icon/ic_all_n.png" /><span translate="All">All</span></button></a></li>
 <!--                 <li><a href="index.html#filter=.museum"><button translate="Museum"><img src="images/icon/ic_museum_n.png" />Museum</button></a></li>-->
-                <li><a href="index.html#filter=.education"><button translate="Education"><img src="images/icon/ic_education_n.png" />Education </button></a></li>
-                <li><a href="index.html#filter=.tourism"><button translate="Tourism"><img src="images/icon/ic_tourism_n.png" />Tourism</button></a></li>
-                <li><a href="index.html#filter=.entertainment"><button translate="Entertainment"><img src="images/icon/ic_entertainment_n.png" />Entertainment</button></a></li>
-                <li><a href="index.html#filter=.developer"><button translate="Developer"><img src="images/icon/ic_gaming_n.png" />Developer</button></a></li>
+                <li><a href="index.html#filter=.education"><button><img src="images/icon/ic_education_n.png" /><span translate="Education">Education</span> </button></a></li>
+                <li><a href="index.html#filter=.tourism"><button><img src="images/icon/ic_tourism_n.png" /><span translate="Tourism">Tourism</span></button></a></li>
+                <li><a href="index.html#filter=.entertainment"><button><img src="images/icon/ic_entertainment_n.png" /><span translate="Entertainment">Entertainment</span></button></a></li>
+                <li><a href="index.html#filter=.developer"><button><img src="images/icon/ic_gaming_n.png" /><span translate="Developer">Developer</span></button></a></li>
                 
                 
                 <li class="showindesktoponly"><a href="download_page.html" target="_blank"><button class="button border x-small white header-download-btn" translate="Download">Download</button></a></li>
+                <!--
+                <li class="hoverTrigger showindesktoponly lang">
                 
-<!--                 <li class="hoverTrigger showindesktoponly">
-
-<a href="javascript:void(0)"><i class="fa fa-globe"></i><i class="fa fa-angle-down fa-indicator"></i><div class="mobileTriggerButton"></div></a>
-drop down multilevel
-<ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
-    
-    <li class="hoverTrigger"><a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English
-    <div class="mobileTriggerButton"></div></a>
-    </li>
-    <li class="hoverTrigger"><a href="javascript:void(0)" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">中文 
-    <div class="mobileTriggerButton"></div></a> 
-    </li>
-</ul>
-</li>
-
-<li class="showindesktoponly">
-<div class="search-cart">
-   <div class="search">
-    <a class="search-btn not_click" href="javascript:void(0);"></a>
-    <div class="search-box not-click">
-         <input type="text" class="not-click form-control" placeholder="{{ 'SEARCH' | translate }}" value="" name="s">
-       <i class="fa fa-search"></i>
-   </div>
-  </div>
-               </div>
-</li> -->
+                <a href="javascript:void(0)"><i class="fa fa-globe"></i><i class="fa fa-angle-down fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+                drop down multilevel
+                <ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
+                    
+                    <li class="hoverTrigger"><a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English
+                    <div class="mobileTriggerButton"></div></a>
+                    </li>
+                    <li class="hoverTrigger"><a href="javascript:void(0)" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">中文
+                    <div class="mobileTriggerButton"></div></a> 
+                    </li>
+                </ul>
+                </li>
+                
+                <li class="hoverTrigger showindesktoponly search ml-10">
+                <a href="javascript:void(0)"><i class="fa fa-search"></i><div class="mobileTriggerButton"></div></a>
+                drop down multilevel
+                <ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
+                    <li class="hoverTrigger" id="search-input-box">
+                       <ng-include src="'search.html'"></ng-include>
+                    </li>
+                    
+                </ul>
+                </li>
+                
+                <li class="hoverTrigger hideindesktop lang pl-20" style="border-top: 1px #aaa solid;">
+                <a href="javascript:void(0)"><span translate="Language">Language</span><i class="fa fa-angle-down fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+                drop down multilevel
+                <ul class="drop-down-multilevel left-side effect-expand-top" style="transition: all 400ms ease;">
+                    <li class="hoverTrigger"><a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English
+                    <div class="mobileTriggerButton"></div></a>
+                    </li>
+                    <li class="hoverTrigger"><a href="javascript:void(0)" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">中文 
+                    <div class="mobileTriggerButton"></div></a> 
+                    </li>
+                </ul>
+                </li>
+                -->
+                
+                <li class="hoverTrigger hideindesktop search ml-10 pt-10 pb-10">
+                        <script src="search.js"></script>
+                        <gcse:searchbox-only></gcse:searchbox-only>
+                </li>
             </ul>
         
         
-<!--         <div class="search-cart hideindesktop">
-  <div class="search">
-    <a class="search-btn not_click" href="javascript:void(0);"></a>
-      <div class="search-box not-click">
-         <input type="text" class="not-click form-control" placeholder="Search" value="" name="s" translate="search">
-       <i class="fa fa-search"></i>
-   </div>
-  </div>
+<!--
+        <div class="search-cart hideindesktop">
+          <div class="search">
+            <a class="search-btn not_click" href="javascript:void(0);"></a>
+              <div class="search-box not-click">
+                 <input type="text" class="not-click form-control" placeholder="Search" value="" name="s" translate="search">
+               <i class="fa fa-search"></i>
+           </div>
+          </div>
 
-  <div class="shpping-cart">
-   <a class="cart-btn" href="#"> <i class="fa fa-globe icon"></i></a>
-    <div class="cart">
-      <div class="cart-item">
-        <div class="cart-name clearfix">
-          <a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English</a>
-          <a href="#" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">中文</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
+          <div class="shpping-cart">
+           <a class="cart-btn" href="#"> <i class="fa fa-globe icon"></i></a>
+            <div class="cart">
+              <div class="cart-item">
+                <div class="cart-name clearfix">
+                  <a href="#" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">English</a>
+                  <a href="#" ng-click="changeLanguage('es')" translate="BUTTON_LANG_ES">中文</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
+-->
         
         </div>
         
