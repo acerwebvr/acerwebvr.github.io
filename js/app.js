@@ -295,6 +295,38 @@ var app = angular.module('app', ['pascalprecht.translate']);
         mathworld_vr_A:"michaltakac",
         mathworld_vr_C:"I am convinced that the best learning takes place when the learner takes charge.",
         
+        expedition_wilde_welten:"Expedition Wilde Welten",
+        expedition_wilde_welten_A:"Kubikfoto",
+        expedition_wilde_welten_C:"Support PC, Mobil, Google Cardboard oder Rift und Vive.",
+        
+        networked_aframe:"Networked Aframe",
+        networked_aframe_A:"networked-aframe",
+        networked_aframe_C:"A web framework for building multi-user virtual reality experiences.",
+        
+        webvr_boilerplate:"WebVR Boilerplate",
+        webvr_boilerplate_A:"borismus",
+        webvr_boilerplate_C:"WebVR Boilerplate is a toolkit for WebVR creators to develop, build and deploy static WebVR experiences to the web.",
+        
+        cat_amari:"Cat-amari",
+        cat_amari_A:"Cat-amari",
+        cat_amari_C:"A WebVR experience.",
+        
+        visualizing_evolutionary_history_with_webvr:"Visualizing evolutionary history with WebVR",
+        visualizing_evolutionary_history_with_webvr_A:"emilydolson",
+        visualizing_evolutionary_history_with_webvr_C:"A WebVR experience.",
+        
+        a_vr_picnic:"A VR Picnic",
+        a_vr_picnic_A:"dixpark",
+        a_vr_picnic_C:"A VR Picnic.",
+        
+        lava:"Lava",
+        lava_A:"felipenmoura",
+        lava_C:"A WebVR experience.",
+        
+        vr_cube_tunnel:"VR Cube Tunnel",
+        vr_cube_tunnel_A:"Caleb Miller",
+        vr_cube_tunnel_C:"VR Cube Tunnel.",
+        
         footer_statement:"All trademarks, images, product names and logos appearing on the site are the property of their respective owners.",
         footer_legal:"legal",
         Search:"Search",
@@ -590,6 +622,38 @@ var app = angular.module('app', ['pascalprecht.translate']);
         mathworld_vr:"Mathworld VR",
         mathworld_vr_A:"michaltakac",
         mathworld_vr_C:"I am convinced that the best learning takes place when the learner takes charge.",
+        
+        expedition_wilde_welten:"Expedition Wilde Welten",
+        expedition_wilde_welten_A:"Kubikfoto",
+        expedition_wilde_welten_C:"Support PC, Mobil, Google Cardboard oder Rift und Vive.",
+        
+        networked_aframe:"Networked Aframe",
+        networked_aframe_A:"networked-aframe",
+        networked_aframe_C:"A web framework for building multi-user virtual reality experiences.",
+        
+        webvr_boilerplate:"WebVR Boilerplate",
+        webvr_boilerplate_A:"borismus",
+        webvr_boilerplate_C:"WebVR Boilerplate is a toolkit for WebVR creators to develop, build and deploy static WebVR experiences to the web.",
+        
+        cat_amari:"Cat-amari",
+        cat_amari_A:"Cat-amari",
+        cat_amari_C:"A WebVR experience.",
+        
+        visualizing_evolutionary_history_with_webvr:"Visualizing evolutionary history with WebVR",
+        visualizing_evolutionary_history_with_webvr_A:"emilydolson",
+        visualizing_evolutionary_history_with_webvr_C:"A WebVR experience.",
+        
+        a_vr_picnic:"A VR Picnic",
+        a_vr_picnic_A:"dixpark",
+        a_vr_picnic_C:"A VR Picnic.",
+        
+        lava:"Lava",
+        lava_A:"felipenmoura",
+        lava_C:"A WebVR experience.",
+        
+        vr_cube_tunnel:"VR Cube Tunnel",
+        vr_cube_tunnel_A:"Caleb Miller",
+        vr_cube_tunnel_C:"VR Cube Tunnel.",
         
         footer_statement:"本網站上出現的所有資料，包括商標、圖片、商標名、文字均為其所有者的財產，受到全球商標及著作權法的保護",
         footer_legal:"法律聲明",
