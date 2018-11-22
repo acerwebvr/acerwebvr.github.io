@@ -102,6 +102,22 @@
 }
 */
 
+.tnicon {
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    right: 5px; 
+    z-index: 99;
+    background-size: 100%;
+}
+
+.icon_a1 {
+    background-image: url(../images/icon/thumbnial/a1.svg);
+}
+
+.icon_a2 {
+    background-image: url(../images/icon/thumbnial/a2.svg);
+}
 
 .gsc-control-cse
 {

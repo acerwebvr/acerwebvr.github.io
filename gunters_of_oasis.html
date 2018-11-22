@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="WebVR" />
+<meta name="description" content="Acer WebVR" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Acer WebVR Start Page</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+<!-- font -->
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,500i,600,700,800,900|Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+ 
+<!-- Plugins -->
+<link rel="stylesheet" type="text/css" href="css/plugins-css.css" />
+
+<!-- Typography -->
+<link rel="stylesheet" type="text/css" href="css/typography.css" />
+
+<!-- Shortcodes -->
+<link rel="stylesheet" type="text/css" href="css/shortcodes/shortcodes.css" />
+
+<!-- Style -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<!-- Responsive -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" /> 
+
+<link rel="stylesheet" type="text/css" href="css/new.css" />
+ 
+<!-- include js libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.7.2/angular-translate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120784533-2"></script>
+<script type="text/javascript" src="js/google-analytics.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="Ctrl">
+
+<div class="wrapper">
+
+<!--=================================
+ preloader -->
+ 
+<div id="pre-loader">
+    <img src="images/pre-loader/loader-01.svg" alt="">
+</div>
+
+<!--=================================
+ preloader -->
+
+ <!--=================================
+ header -->
+<ng-include src="'header.html'"></ng-include>
+<div id="fake-search"></div>
+ <!--=================================
+ header -->
+
+<!--=================================
+ main -->
+
+<section class="single-portfolio-post white-bg page-section-ptb">
+  <div class="container">
+     <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-12">
+         <div class="who-we-are-left port-singal">
+          <div class="owl-carousel bottom-left-dots" data-nav-dots="ture" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-xx-items="1">
+          <div class="item"><img src="images/inner_page/gunters_of_oasis_02.png" alt="">
+          </div>
+          <div class="item"><img src="images/inner_page/gunters_of_oasis_03.png" alt="">
+          </div>
+          <div class="item"><img src="images/inner_page/gunters_of_oasis_04.png" alt="">
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12 port-information">
+         <div class="port-title sm-mt-40">
+            <h3 class="mb-30" translate="gunters_of_oasis">Gunters of OASIS</h3>
+         </div>
+          <div class="port-meta clearfix">
+            <ul class="list-unstyled">
+                <li><b translate="Category">Category:</b><span translate="Developer">Developer</span></li>
+              <li><b translate="Author">Author:</b><span translate="gunters_of_oasis_A">supermedium</span></li>
+                <li><b translate="Framework">Framework:</b><span translate="A-Frame">A-Frame</span></li>
+            </ul>
+          </div>
+           <div class="share clearfix mt-10">
+            <a href="https://supermedium.com/gunters-of-oasis-deploy/" class="button icon pull-left" target="_blank">
+                  <span  translate="view_vr_btn">View VR Experience</span>
+                    <i class="fa fa-hand-o-right"></i>
+                 </a>
+                  <div class="social mt-15 pull-right">
+                     
+                  </div>
+            </div>
+       </div>
+      </div>
+      <!--=================================-->
+      <div class="row">
+         <div class="col-lg-12 col-md-12">
+           <div class="port-info mt-50 mb-50">
+              <p translate="gunters_of_oasis_C">A web framework for building virtual reality experiences. Make WebVR with HTML and Entity-Component. Works on Vive, Rift, desktop, mobile platforms.
+              </p>
+           </div>
+         </div>
+      </div>       
+
+    </div>
+
+  </section>
+
+  
+<!--=================================
+ main -->
+ 
+
+<!--=================================
+ footer -->
+<ng-include src="'footer.html'"></ng-include>
+<!--=================================
+ footer -->
+</div> 
+
+<div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span translate="TOP">TOP</span></a></div> 
+ 
+<!--=================================
+ jquery -->
+
+<!-- jquery -->
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
+<!-- plugins-jquery -->
+<script type="text/javascript" src="js/plugins-jquery.js"></script>
+
+<!-- plugin_path -->
+<!--<script type="text/javascript">var plugin_path = 'js/';</script>-->
+ <script type="text/javascript" src="js/plugin_path.js"></script>
+
+<!-- custom -->
+<script type="text/javascript" src="js/custom.js"></script>
+ 
+<script>
+$(document).ready( function() {
+    $( "#fake-search" ).load( "search.html" );
+    $( "#fake-search" ).hide();
+});
+</script>
+</body>
+</html>
+
