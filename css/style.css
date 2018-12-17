@@ -771,7 +771,7 @@ margin-left: -17px; line-height: 50px; }
 /*port-meta*/
 .port-meta ul { margin-bottom: 30px; }
 .port-meta li { margin-bottom: 20px; font-size: 16px; }
-.port-meta li b {  color: #84ba3f; width: 200px; font-weight: 400; width: 100px; display: inline-block; }
+.port-meta li b {  color: #84ba3f; width: 200px; font-weight: 400; width: 150px; display: inline-block; }
 .port-meta li span { font-weight: normal; }
 .port-info p { margin-bottom: 0px; }
 

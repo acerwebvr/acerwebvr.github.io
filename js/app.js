@@ -270,7 +270,7 @@ var app = angular.module('app', ['pascalprecht.translate']);
         finding_love_A:"Active Theory",
         finding_love_C:"Finding Love is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, you experience the journey purely through visuals and sound.",
         
-        gaze_selection_based_on_a_timing_approach:"Gaze selection based on a timing approach",
+        gaze_timing_selection:"Gaze timing selection",
         gaze_selection_based_on_a_timing_approach_A:"None",
         gaze_selection_based_on_a_timing_approach_C:"Small sample to show how to implement a gaze timing selection approach on mobile for instance.",
         
@@ -286,7 +286,7 @@ var app = angular.module('app', ['pascalprecht.translate']);
         tavern_king_A:"Mozilla VR",
         tavern_king_C:"In the Tavern of the Wild Boar.",
         
-        matterport_national_museum_of_iraq_assyrian_hall:"Matterport-National Museum of Iraq (Assyrian Hall)",
+        matterport_national_museum_of_iraq:"Matterport-National Museum of Iraq",
         matterport_national_museum_of_iraq_assyrian_hall_A:"The Associated Press",
         matterport_national_museum_of_iraq_assyrian_hall_C:"Featured by the Associated Press, the Iraq National Museum was established after World War I and features prized artifacts from the Mesopotamian civilization. Over the past few years, the Islamic State group has damaged ancient sites across Iraq and Syria, and so the museum's preservation of ancient artifacts is now more important than ever. The Assyrian Hall contains treasures from the Assyrian Empire including two towering deities known as Lamassu and a statue from the temple of Nabu.",
         

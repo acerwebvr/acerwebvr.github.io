@@ -103,20 +103,39 @@
 */
 
 .tnicon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: absolute; 
-    right: 5px; 
+    right: 50px; 
+    bottom: 10px;
     z-index: 99;
     background-size: 100%;
 }
 
-.icon_a1 {
-    background-image: url(../images/icon/thumbnial/a1.svg);
+
+.tniconl {
+    width: 40px;
+    height: 40px;
+    position: absolute; 
+    right: 5px; 
+    bottom: 10px;
+    z-index: 99;
+    background-size: 100%;
 }
 
-.icon_a2 {
-    background-image: url(../images/icon/thumbnial/a2.svg);
+.icon_a3 {
+    background-image: url(../images/icon/thumbnial/a3.svg);
+}
+.icon_a3_6 {
+    background-image: url(../images/icon/thumbnial/a3_6.svg);
+}
+
+.icon_a6 {
+    background-image: url(../images/icon/thumbnial/a6.svg);
+}
+
+.icon_a6_3 {
+    background-image: url(../images/icon/thumbnial/a6_3.svg);
 }
 
 .gsc-control-cse
@@ -254,11 +273,26 @@ table.gsc-search-box td{
     border: 0;
 }
 
-.header-download-btn {
-    padding: 0 10px!important;
-    line-height: 30px!important;
-    margin-right: 10px!important;
+.mega-menu .menu-links > li > a.header-download-btn {
+    text-transform: none;
+    background: transparent;
+    border: 2px solid #fff;
+    font-size: 12px;
+    border-radius: 19px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10px;
+    line-height: 30px;
+    margin-right: 10px;
 }
+
+.mega-menu .menu-links > li > a.header-download-btn:hover{
+    background: #FFF;
+}
+
 
 .pager {
     display: inline-block;
