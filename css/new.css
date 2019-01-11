@@ -237,7 +237,7 @@ table.gsc-search-box td{
 .isotope-filters button {
     margin: 0;
     cursor: pointer;
-    padding: 0 25px;
+    padding: 0 23px;
     font-size: 16px;
     border-radius: 19px;
     background: none;
@@ -335,8 +335,17 @@ table.gsc-search-box td{
     }
     
     .page-title {
-        padding-top: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
+	
+	.mega-menu .menu-mobile-collapse-trigger{
+		top: 60%;
+	}
+	
+	#logo_img {
+		margin-top: 25px;
+	}
     
 /*
     .header-download-btn {
