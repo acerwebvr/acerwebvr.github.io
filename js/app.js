@@ -18,7 +18,7 @@ var app = angular.module('app', ['pascalprecht.translate']);
         None:"None",
         
         header_title:"Acer WebVR Start Page",
-        header_caption:"With your Acer Windows Mixed Reality Headset, you can experience VR in Chrome browser just by clicking a link.",
+        header_caption:"With your Acer Windows Mixed Reality Headset, you can experience VR in Acer Chromium Browser just by clicking a link.",
         header_btn1:"ABOUT ACER MIXED REALITY HEADSET",
 
         Category:"Category",
