@@ -258,7 +258,8 @@ table.gsc-search-box td{
     color: #84ba3f;
 }
 
-.menu-bar .isotope-filters button img{
+.menu-bar .isotope-filters button img,
+.menu-bar .isotope-filters img{
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -271,6 +272,22 @@ table.gsc-search-box td{
 
 .process {
     border: 0;
+}
+
+ #header-download-btn-mobile{
+	margin: 0;
+    cursor: pointer;
+    padding: 0 23px;
+    background: none;
+    border: none;
+    
+}
+
+#header-download-btn-mobile a{
+	font-size: 16px!important;
+	text-transform: capitalize!important;
+	font-weight: 400!important;
+	color: #000;
 }
 
 .mega-menu .menu-links > li > a.header-download-btn {
